@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1" type="plugin" group="system">
+	<name>plg_system_redirectbackend</name>
+	<author>Techjoomla</author>
+	<creationDate>May 2024</creationDate>
+	 <copyright>Copyright (C) 2009 - 2023 Techjoomla. All rights reserved.</copyright>
+	<authorEmail>extensions@techjoomla.com</authorEmail>
+	<authorUrl>https://techjoomla.com</authorUrl>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+	<version>1</version>
+	<description>Using this simple plugin you may allow your site admins to be redirected on a curtain component on backend login.</description>
+	<files>
+		<filename plugin="redirectbackend">redirectbackend.php</filename>
+		<filename>index.html</filename>
+		<filename>subform.xml</filename>
+		<folder>language</folder>
+		
+	</files>
+
+	<config>
+		<fields name="params">
+ 
+			<fieldset name="basic">
+				<field
+					name="usergroup_dashboard"
+					type="subform"
+					label="PLG_SYSTEM_REDIRECTBACKEND_SUBFORM_LABEL"
+					description="PLG_SYSTEM_REDIRECTBACKEND_SUBFORM_DESC"
+					multiple="true"
+					formsource="plugins/system/redirectbackend/subform.xml"
+					layout="joomla.form.field.subform.repeatable-table"
+				/>
+ 
+			</fieldset>
+ 
+		</fields>
+	</config>
+</extension>

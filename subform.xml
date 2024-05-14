@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form>
+    <fields name="params">
+        <fieldset name="subform" label="PLG_SYSTEM_REDIRECTBACKEND_SUBFORM_FIELDSET_LABEL">
+            <field
+                name="usergroup"
+                type="usergrouplist"
+                label="PLG_SYSTEM_REDIRECTBACKEND_USERGROUP_LABEL"
+                description="PLG_SYSTEM_REDIRECTBACKEND_USERGROUP_DESC"
+            />
+            <field 
+                name="dashboard" 
+                type="text" 
+                disable="separator"
+                label="PLG_SYSTEM_REDIRECTBACKEND_DASHBOARDMENU_LABLE" 
+                description="PLG_SYSTEM_REDIRECTBACKEND_DASHBOARDMENU_DESC"
+                 />
+        </fieldset>
+    </fields>
+</form>
+
